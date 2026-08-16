@@ -1,0 +1,86 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,top=0.37in,bottom=0.37in,left=0.48in,right=0.48in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.21in,itemsep=0.2pt,topsep=0.6pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\large\scshape}{}{0em}{}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+\newcommand{\job}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-2pt}
+}
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Sri Upanya Balu}}\\[-1pt]
+{\itshape AI / ML Leader (6+ Years) --- Generative AI, Commercial Analytics \& MLOps}\\[4pt]
+716-923-5455 \;|\; \href{mailto:sriupanya@gmail.com}{sriupanya@gmail.com} \;|\; \href{https://linkedin.com/in/sri-upanya-balu/}{linkedin.com/in/sri-upanya-balu/} \;|\; \href{https://github.com/sriupanya}{github.com/sriupanya}
+\end{center}
+\vspace{-4pt}
+
+\section{Experience}
+\job{Senior Manager -- Analytical AI Solutions for Forecasting}{Jan. 2024 -- Present}{Bristol Myers Squibb}{Princeton, NJ}
+\begin{itemize}
+\item Led development and production deployment of GenAI capabilities for commercial analytics, integrating natural-language visualization and text-to-SQL with enterprise forecasting data to enable conversational access to complex analytics
+\item Established evaluation, governance, and reliability frameworks for enterprise AI through LLM benchmarking, validation rules, SQL/query guardrails, business-rule checks, and controlled execution, improving trust and production readiness
+\item Lead end-to-end development and deployment of AI-driven forecasting solutions, translating commercial forecasting needs into machine learning, GenAI, and analytics products that enable scalable, data-driven decision support
+\item Designed and deployed an AI-powered peak-share prediction and analog-selection solution using historical products, market drivers, machine learning, and explainability methods, achieving over 91\% forecasting accuracy and strengthening rigor in forecasting assumptions and scenario planning
+\item Modernize enterprise forecasting workflows by replacing spreadsheet-heavy processes with governed Python applications and reusable pipelines over Databricks data, improving reproducibility, testing, scalability, and system integration
+\item Partner across forecasting, commercialization, product, engineering, data science, and vendor teams to translate business problems into requirements, guide technical architecture, validate solutions, and move AI products from concept through deployment and adoption
+\item Lead and mentor consultants and junior data scientists through technical reviews, onboarding, and delivery planning
+\end{itemize}
+\vspace{-2pt}
+
+\job{Data Scientist -- Worldwide Patient Safety Intern}{Jun. 2023 -- Aug. 2023}{Bristol Myers Squibb}{Summit, NJ}
+\begin{itemize}
+\item Developed an end-to-end ML model using real-world clinical data to predict adverse events, achieving 80\% accuracy and identifying high-risk patient subgroups
+\item Designed a simulation and survival-analysis framework to evaluate treatment effects on time-to-event outcomes for clinical-trial diversity analysis
+\item Fine-tuned DistilBERT to extract sentiment and themes from HCP feedback in REMS reports, converting unstructured text into safety insights
+\end{itemize}
+\vspace{-2pt}
+
+\job{Data Scientist II -- AI and Digital Analytics (Sales)}{Oct. 2021 -- Jul. 2022}{Verizon Communications}{Chennai, India}
+\begin{itemize}
+\item Built and deployed an LSTM customer-intent model using digital behavior data, increasing commercialization campaign conversion by 22\%
+\item Developed predictive targeting models from customer data, contributing to a 27\% uplift in digital engagement
+\item Led end-to-end ML initiatives spanning data preparation, modeling, evaluation, deployment collaboration, and stakeholder alignment
+\end{itemize}
+\vspace{-2pt}
+
+\job{Data Scientist -- AI and Digital Analytics (Sales)}{Jul. 2019 -- Jun. 2021}{Verizon Communications}{Chennai, India}
+\begin{itemize}
+\item Developed a lead-propensity model from customer interaction history, increasing telesales conversion by 28\%
+\item Queried large customer datasets with SQL and BI tools to support segmentation, targeting, sales strategy, and performance reporting
+\end{itemize}
+\vspace{-2pt}
+
+\job{Project Intern}{Dec. 2018 -- Mar. 2019}{HCL Technologies}{Chennai, India}
+\begin{itemize}
+\item Developed a cloud-based performance-monitoring system for virtual machines to support proactive resource allocation
+\end{itemize}
+\vspace{-3pt}
+
+\section{Education}
+\job{University at Buffalo, SUNY}{Buffalo, NY}{Master of Science, Data Science}{Aug. 2022 -- Dec. 2023}
+\job{Anna University}{Chennai, India}{Bachelor of Engineering, Computer Science \& Engineering}{Jul. 2015 -- May 2019}
+\vspace{-3pt}
+
+\section{Technical Skills}
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.49\textwidth}@{\hspace{0.02\textwidth}}>{\raggedright\arraybackslash}p{0.49\textwidth}@{}}
+\textbf{GenAI \& Product:} LLM evaluation, prompt engineering, text-to-SQL, NL-to-chart, AI guardrails, production deployment, product roadmaps, technical feasibility & \textbf{MLOps \& Deployment:} Git, CI/CD, Docker, Kubernetes, AWS (EC2, S3), Streamlit, model versioning and testing, Jira, Confluence \\
+\textbf{AI/ML \& Data:} scikit-learn, TensorFlow, XGBoost, SHAP, LSTM, NLP, Transformers, Pandas, NumPy, survival analysis & \textbf{Data Platforms \& Databases:} Databricks, PostgreSQL, MySQL, HiveQL, Teradata, CassandraDB, MongoDB \\
+\textbf{Programming:} Python, SQL, R, C++, MATLAB & \textbf{Domains:} Pharma commercial analytics, forecasting, marketing and sales analytics
+\end{tabularx}}
+
+\end{document}
