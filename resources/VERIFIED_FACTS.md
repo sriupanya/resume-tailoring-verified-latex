@@ -9,7 +9,7 @@ This file is a guardrail for resume tailoring. A job description is not evidence
 - Email: sriupanya@gmail.com
 - LinkedIn: linkedin.com/in/sri-upanya-balu/
 - GitHub: github.com/sriupanya
-- Headline years of experience: 6+ years (use this figure; do not increase it to match a JD)
+- Headline / top summary rule: do not state a total years-of-experience figure. Use role-relevant positioning only; employment dates remain the source for experience chronology.
 
 ## Education
 - M.S., Data Science — University at Buffalo, SUNY — Aug 2022 to Dec 2023
@@ -162,3 +162,6 @@ Use only when relevant:
 - Use ATS terminology only when truthful
 - Do not rewrite transferable experience as direct experience
 - Do not include job-search tooling, resume-generation tooling, or career-tracking tooling as resume projects
+- Do not include a total years-of-experience figure in the headline or top summary
+- Keep the Technical Skills section deliberately dense and ATS-oriented: surface a broad set of verified skills, methods, platforms, delivery capabilities, and relevant domain keywords, then reorder/prioritize them for the target JD
+- Prefer exact JD terminology when it truthfully maps to verified evidence, but never add an unsupported skill solely for keyword coverage
